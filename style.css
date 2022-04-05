@@ -120,13 +120,18 @@ li {
     border-radius: 10px;
     
 }
-
 .bttnsignup {
-    align-self: ;
     background-color: #3882F6;
     border-radius: 5px;
     border-style: solid;
     border-color: #E5E7EB;
     width: 100px;
     height: 25px;
+}
+.footer {
+    margin: -8px;
+    padding: 30px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
 }

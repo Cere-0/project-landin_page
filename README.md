@@ -1,1 +1,3 @@
-# project-landin_page
+# project-landing_page
+
+Project from scratch from the odin project.

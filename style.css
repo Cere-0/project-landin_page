@@ -104,3 +104,29 @@ li {
     font-weight: bold;
     font-size: 26px;
 }
+.action {
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+}
+.sign-up {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    border-radius: 10px;
+    
+}
+
+.bttnsignup {
+    align-self: ;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #E5E7EB;
+    width: 100px;
+    height: 25px;
+}

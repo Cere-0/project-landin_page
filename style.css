@@ -40,7 +40,7 @@ li {
 .header-content {
     width: 400px;
 }
-.image {
+.image { /*Box for the placeholder image */
     background-color: gray;
     width: 400px;
     height: 200px;
@@ -54,4 +54,39 @@ li {
     border-style: none;
     width: 80px;
     height: 30px;
+}
+/*.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}*/
+.subtitle {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.box {   /* Box that contains the image placeholder and text  */
+    width: 100px;
+    min-height: 100px;
+    text-align: center;
+}
+.subimage { /* Draw of a box */
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    background: transparent;
+    width: 100px;
+    height: 100px;
+}
+.quote-text {
+    display: flex;
+    min-width: 0px;
+    background-color: #E5E7EB;
 }

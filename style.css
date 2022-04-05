@@ -75,8 +75,9 @@ li {
 
 .box {   /* Box that contains the image placeholder and text  */
     width: 100px;
-    min-height: 100px;
+    min-height: 100px; /*! So that the page dosent overflow*/
     text-align: center;
+    padding-bottom: 100px;
 }
 .subimage { /* Draw of a box */
     border: 3px solid #3882f6;
@@ -87,6 +88,19 @@ li {
 }
 .quote-text {
     display: flex;
-    min-width: 0px;
     background-color: #E5E7EB;
+    font-style: italic;
+    color: #1F2937;
+    flex-direction: column;
+    padding: 100px;
+}
+.quote{
+    text-align: center;
+    font-size: 36px;
+}
+.quote-autor {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 26px;
 }
